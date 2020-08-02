@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+  color: #000;
+}
+
+.firstClass {
+  color: blue;
+}
+
+​
+.secondClass {
+  color: red;
+}

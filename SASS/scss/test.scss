@@ -1,0 +1,17 @@
+@import 'test1';
+
+body {
+    color: #000;
+}
+
+.firstClass {
+    $color: if(true, blue, red);
+    color: $color;
+}​
+
+.secondClass {
+    $color: if(false, blue, red);
+    color: $color;
+}
+
+ 
